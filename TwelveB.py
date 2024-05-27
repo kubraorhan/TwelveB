@@ -54,11 +54,10 @@ class NotionApp(wx.Frame):
                 dark_mode INTEGER
             )
         ''')
-        
         self.conn.commit()
 
     def init_ui(self):
-        self.SetTitle("Welcome")
+        self.SetTitle("Welcome to TwelveB")
         self.SetSize((500, 400))
 
         panel = wx.Panel(self)
